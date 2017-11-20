@@ -691,3 +691,11 @@ header > input {
 .details > header + section {
   margin-top: 25px;
 }
+
+
+.menu, .childNode {
+  list-style: none;
+}
+
+.childNode.false {display: none;}
+.childNode.true {display: block;}
